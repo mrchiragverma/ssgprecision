@@ -8,10 +8,17 @@ const Navbar: React.FC = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="fixed top-0 left-0 right-0 z-50 glass border-b border-white/5"
+      className="fixed top-0 left-0 right-0 z-50 flex flex-col"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+      {/* 2026 FTA Banner */}
+      <div className="bg-electric-blue text-white text-xs md:text-sm py-2 px-4 text-center font-medium shadow-md">
+        <span className="font-bold tracking-wide uppercase">2026 India-EU FTA Authorized Partner.</span> 
+        <span className="opacity-90 ml-2 hidden md:inline">Leverage zero-duty access for 99% of our engineering catalog. Direct DDP delivery to Hamburg, Stuttgart, and Seoul.</span>
+      </div>
+      
+      <div className="glass border-b border-white/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer">
             <Hexagon className="w-8 h-8 text-electric-blue" />
@@ -51,6 +58,7 @@ const Navbar: React.FC = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             </button>
+          </div>
           </div>
         </div>
       </div>

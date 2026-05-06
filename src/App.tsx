@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import TechnicalCapabilities from './components/TechnicalCapabilities';
 import Heritage from './components/Heritage';
+import ComplianceESG from './components/ComplianceESG';
 import ProductFocus from './components/ProductFocus';
 import Logistics from './components/Logistics';
 import RFQPortal from './components/RFQPortal';
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <TechnicalCapabilities />
         <Heritage />
+        <ComplianceESG />
         <ProductFocus />
         <Logistics />
         <RFQPortal />

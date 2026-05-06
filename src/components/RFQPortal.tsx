@@ -37,7 +37,7 @@ const RFQPortal: React.FC = () => {
         >
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold mb-3">AI-Integrated RFQ Portal</h2>
-            <p className="text-slate-400">Upload your CAD drawings for a 24h feasibility report and automated quoting.</p>
+            <p className="text-slate-400">Our AI engine processes drawings instantly, but our Senior Architects in Gurugram verify every tolerance manually. No bots, just high-speed engineering.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
